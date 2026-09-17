@@ -1,0 +1,13 @@
+{
+  "name": "runak-url-pinger",
+  "version": "1.0.0",
+  "description": "🫧🦋 ʀuɴAk — pings a configurable list of URLs on an interval to keep them awake. Built to deploy on Render.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
