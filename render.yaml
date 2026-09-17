@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: runak-url-pinger
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: PING_INTERVAL_MS
+        value: "60000"
+      - key: "1"
+        value: "https://example1.com"
+      - key: "2"
+        value: "https://example2.com"
